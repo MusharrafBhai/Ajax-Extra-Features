@@ -235,11 +235,7 @@ async def advantage_spoll_choker(bot, query):
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer("Sorry, ❤️ 
-
-This Movie Not Released / Not added
-
-Contact @Royaldeep01 for more Info", show_alert=True)
+        return await query.answer("Sorry, ❤️                                                                  This Movie Not Released / Not added                                                                           Contact @Royaldeep01 for more Info", show_alert=True)
     movie = movies[(int(movie_))]
     await query.answer('𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶 𝙵𝙸𝙻𝙴 𝙾𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴...//')
     k = await manual_filters(bot, query.message, text=movie)
