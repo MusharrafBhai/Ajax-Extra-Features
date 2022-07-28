@@ -748,12 +748,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕Add Me To Your Group➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍Search Inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('▶️Subscribe', url='https://t.me/WOMBACKUP')
+            InlineKeyboardButton('😎Owner', url='https://t.me/Royaldeep01')
             ],[      
             InlineKeyboardButton('ℹ️Help', callback_data='help'),
             InlineKeyboardButton('😊About', callback_data='about')
             ],[
-            InlineKeyboardButton('🛎Youtube🛎', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
+            InlineKeyboardButton('🛎 Youtube 🛎', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
