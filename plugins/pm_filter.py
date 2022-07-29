@@ -754,7 +754,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍Search Movie', switch_inline_query_current_chat=''),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔞18+ Movies🔞', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
+            InlineKeyboardButton('🔞18+ Movies🔞', url='https://t.me/+y6EuG2dyDvk3YTM1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
